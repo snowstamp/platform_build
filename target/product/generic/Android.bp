@@ -868,6 +868,7 @@ system_image_defaults {
                 "PrintSpooler", // handheld_system
                 "PrivateSpace", // handheld_system
                 "ProxyHandler", // handheld_system
+                "Seedvault", // media_system
                 "SettingsProvider", // base_system
                 "SharedStorageBackup", // handheld_system
                 "Shell", // base_system
