@@ -930,6 +930,7 @@ system_image_defaults {
             ] + select(product_variable("debuggable"), {
                 true: [
                     "HardeningTestApp", // base_system
+                    "SecurePasteTestSystemApp", // base_system
                 ],
                 default: [],
             }) + select(release_flag("RELEASE_NATIVE_OMAPI"), {
