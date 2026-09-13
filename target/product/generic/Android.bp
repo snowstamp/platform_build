@@ -849,6 +849,7 @@ system_image_defaults {
                 "ExtShared", // base_system
                 "ExternalStorageProvider", // handheld_system
                 "FusedLocation", // handheld_system
+                "GmsCompat", // handheld_system
                 "HTMLViewer", // media_system
                 "InputDevices", // handheld_system
                 "IntentResolver", // base_system
